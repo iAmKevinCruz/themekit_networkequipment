@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "1654616657b006390e": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Supply_Chain_Issues_Got_You_Down.png",
+        "crop": "center",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Why Are We Different?",
+        "subheading": "<p>&gt; We Offer Many Conditions of Hardware ... New, New Open Box, OEM Reconditioned, and Used\/Reconditioned by us.<\/p><p>&gt; We Are Authorized Partners for Many Brands and Work through Distribution Channels to get the right items for you.<\/p><p>&gt; We also Work Among Worldwide Dealers who have Pockets Of Hardware we can use for You.<\/p><p>&gt; We Buy Back Your Old and Surplus (New as well) and Pay You Outright or can use it for Credit in future purchases.<\/p>",
+        "text_alignment": "center",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "main": {
+      "type": "page-contact",
+      "settings": {}
+    }
+  },
+  "order": [
+    "1654616657b006390e",
+    "main"
+  ]
+}

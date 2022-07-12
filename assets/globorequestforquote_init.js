@@ -1,0 +1,1 @@
+var GRFQInstalled=!0;

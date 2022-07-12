@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16541122685c9739b4": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "16541122681199c15d-0": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Contact_Us.png",
+            "mobile_background_image": "shopify:\/\/shop_images\/Contact_Us.png",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "16541122681199c15d-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "title": "Slide 2",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Button",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "16541122681199c15d-0",
+        "16541122681199c15d-1"
+      ],
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 8,
+        "slideshow_width": "full",
+        "slideshow_height": "medium",
+        "slideshow_height_mobile": "adapt",
+        "slideshow_text_below_image": false
+      }
+    },
+    "16532721813ad6ba73": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "{ets_cf_Alc}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16541122685c9739b4",
+    "16532721813ad6ba73"
+  ]
+}

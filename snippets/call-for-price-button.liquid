@@ -1,0 +1,43 @@
+<!-- <script>console.log('call-for-price-button');</script> -->
+{% assign custom = shop.metafields.call_for_price.Settings %}
+
+{% assign btn_name=custom.callforprice_label %}
+{% assign is_enabled=custom.is_enabled %} 
+{% assign product_array=custom.products %}  
+{% if is_enabled == "1" %} 
+
+{% assign form_button_display_option = custom.form_button_display_option %}
+{% assign phone_form_field_call = custom.phone_form_field_call %}
+{% assign callforprice_label_call_button = custom.callforprice_label_call_button %}
+
+  
+{% if form_button_display_option == 'show_cfp_button' %}
+<div class="cfp-prod-wrapper {{product.handle}}" data-handle="{{collection.handle}}" data-coll-id="{{collection.id}}">
+  <div class="cfp-prod-url" style="display: none;">{{product.url}}</div>
+   <div class="cfp-prod-id" style="display: none;">{{product.id}}</div>
+  <div class="cfp-prod-title" style="display: none;">{{product.title}}</div>
+  <div class="cfp-prod-handle" style="display: none;">{{product.handle}}</div>
+  <div class="cfp-prod-button" style='display:none'>
+      <a class="cfp_call_button" target="_parent" href="tel:+{{phone_form_field_call}}">
+   <button type="button" class="btn Button Button--primary button button--primary ">
+  {{callforprice_label_call_button}}
+   </button>
+        </a>
+  </div> 
+</div> 
+
+{% else %}
+<div class="cfp-prod-wrapper {{product.handle}}" data-handle="{{collection.handle}}" data-coll-id="{{collection.id}}">
+  <div class="cfp-prod-url" style="display: none;">{{product.url}}</div>
+   <div class="cfp-prod-id" style="display: none;">{{product.id}}</div>
+  <div class="cfp-prod-title" style="display: none;">{{product.title}}</div>
+  <div class="cfp-prod-handle" style="display: none;">{{product.handle}}</div>
+  <div class="cfp-prod-button" style='display:none'>
+   <button type="button" class="btn Button Button--primary button button--primary call-for-price-btn ">
+     {{btn_name}}
+   </button>
+  </div> 
+</div> 
+{% endif %}
+
+{% endif %}

@@ -1,0 +1,206 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{CDNURL}/ebay/css/bootstrap.min.css?noless" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{CDNURL}/ebay/css/gallery.min.css?noless" />
+<link rel="stylesheet" href="{CDNURL}/ebay/css/gallery.theme.css?noless" />
+{defaultcss}
+<link rel="stylesheet" href="{CDNURL}/ebay/css/listing_style.css?noless" />
+<div class="header_bg">
+<div class="container">
+<div class="row">
+<div class="col-sm-8 logo"><a target="_blank" href="https://www.ebay.com/str/networkequipment"><img class="img-responsive" src="https://cdn.shopify.com/s/files/1/0340/2439/0795/files/ebay_logo_e1e253c7-d169-4a59-861d-f4ebd955bec0.png?v=1645110936" alt="" border="0" /></a></div><!--logo-->
+<div class="col-sm-4 header_contact_wrap highlight_banners"><a target="_blank" href="https://contact.ebay.com/ws/eBayISAPI.dll?FindAnswers&requested=networkequipment&_trksid=p2545226.m2531.l4583&rt=nc"><img class="img-responsive" src="https://mhdesignlab.com/shop_designs/network_equipment/images/contact.png"></a></div><!--header_contact_wrap-->
+</div><!--row-->
+</div><!--container-->
+</div><!--header_bg-->
+<div class="menu_bg">
+<div class="container">
+<div class="row">
+<nav class="" height="40">
+<input id="menu_box" type="checkbox" name="tabs">
+<label for="menu_box">Menu</label>
+<section id="menu_section">
+<ul>
+<li class="menu"><a target="_blank" href="https://www.ebay.com/str/networkequipment"><img src="https://mhdesignlab.com/shop_designs/network_equipment/images/icon_home.png"></a></li>
+<li class="menu"><a target="_blank" href="https://www.ebay.com/str/networkequipment">View All Items</a></li>
+<li class="menu"><a target="_blank" href="https://www.ebay.com/str/networkequipment?_sop=10">New Arrivals</a></li>
+<li class="menu"><a target="_blank" href="https://www.ebay.com/str/networkequipment?_sop=1">Ending Items</a></li>
+<li class="menu"><a target="_blank" href="https://www.ebay.com/str/networkequipment#tab1">About Us</a></li>
+<li class="menu"><a target="_blank" href="https://contact.ebay.com/ws/eBayISAPI.dll?FindAnswers&requested=networkequipment&_trksid=p2545226.m2531.l4583&rt=nc">Contact Us</a></li>
+</ul>
+</section>
+</nav>
+</div><!--row-->
+</div><!--container-->
+</div><!--menu_bg-->
+<div class="banner_bg">
+<div class="gallery autoplay items-3">
+<div id="item-1" class="control-operator"></div>
+<div id="item-2" class="control-operator"></div>
+<div id="item-3" class="control-operator"></div>
+<figure class="item item1">
+<a target="_blank" href="https://www.ebay.com/sch/i.html?_dmd=2&iconV2Request=true&_ssn=networkequipment&store_cat=0&store_name=networkequipment&_oac=1&_nkw=switch"><img class="img-responsive" src="https://mhdesignlab.com/shop_designs/network_equipment/images/banner1.jpg"></a>
+</figure>
+<figure class="item item2">
+<a target="_blank" href="https://www.ebay.com/str/networkequipment"><img class="img-responsive" src="https://mhdesignlab.com/shop_designs/network_equipment/images/banner2.jpg"></a>
+</figure>
+<figure class="item item3">
+<a target="_blank" href="https://www.ebay.com/str/networkequipment"><img class="img-responsive" src="https://mhdesignlab.com/shop_designs/network_equipment/images/banner3.jpg"></a>
+</ul>
+</figure>
+<div class="controls">
+<a href="#item-1" class="control-button">&#9679;</a>
+<a href="#item-2" class="control-button">&#9679;</a>
+<a href="#item-3" class="control-button">&#9679;</a>
+</div>
+</div><!--gallery items-9-->
+</div><!--banner_bg-->
+<div class="why_us_bg">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 why_us"><img class="img-responsive" src="https://mhdesignlab.com/shop_designs/network_equipment/images/why_us.jpg"></div>
+</div><!--row-->
+</div><!--container-->
+</div><!--why_us_bg-->
+<div class="content_bg">
+<div class="container">
+<div class="row">
+<div class="col_left col-sm-7">
+<div class="gallery_wrapper">
+<div class="image">
+<a href="#img1">
+<img class="logo" src="{CDNUrl}/productimages/{ProductID}.png?width=547&amp;etag={etag}">
+</a>
+<a href="#_" class="lightbox" id="img1">
+<div class="close-img">&times</div>
+<img src="{CDNUrl}/productimages/{ProductID}.png?width=800&amp;etag={etag}" />
+</a>
+{for images}
+<a href="#_" class="lightbox" id="img{position+1}">
+<div class="close-img">&times</div>
+<img src="{cdnurl}{images.src}&width=800&amp;height=600&amp;nostretch">
+</a>
+{/for}
+<div class="clearfix"></div>
+{if count(images) > 1}<hr/>{/if}
+{for images step=4}
+<div class="row image-row text-center">
+{for Images count=4 start={position}}
+<div class="span2"><a class="image fancybox" href="#img{position+1}"><img src="{cdnurl}{images.src}&width=200&amp;height=200"/></a></div>
+{/for}
+</div>
+{/for}
+<br />
+</div><!--image-->
+</div><!--gallery wrapper-->
+</div><!--col_left-->
+<div class="col_right col-sm-5">
+<div class="product_title">{Title}</div>
+<div class="item_header item_header_specs">Description:</div><!--item_header-->
+<div vocab="https://schema.org/" typeof="Product"><div property="description"><p>{include field="EbayDescription"}<br><br><Br></p></div></div>
+</div><!--col_right-->
+</div><!--row-->
+</div><!--container-->
+</div><!--content_bg-->
+<div class="info_wrap_bg">
+<div class="container">
+<div class="details_wrap info_wrap">
+<div class="row">
+<div class="col-sm-6 details_col">
+<div class="col-lg-12 details">
+<div class="title details_title"><i class="fa fa-list" aria-hidden="true"></i> ACCESSORIES</div><!--descr_title-->
+<div class="descr">
+<ul>
+<li>All equipment sold will include the standard accessories to immediately be able to install equipment and place in production</li>
+<li>RACKMOUNTS: All standard 19-inch rack-mountable equipment include the necessary rackmount brackets and screws</li>
+<li>POWER CABLES: A standard US power cable is included with each 110-120v AC unit</li>
+<li>EXTERNAL POWER SUPPLIES: The necessary external power supply will be included with each order. Unless the order is for equipment in which the power supply is optional (ex: Cisco PoE devices, phones, wireless APs, cameras) and not standard</li>
+<li>Exceptions to this list would be any AS-IS or Parts Only auctions and disclosures in the auction listing.</li>
+</ul>
+</div>
+</div><!--details-->
+</div><!--details_col-->
+<div class="col-sm-6 details_col no_border">
+<div class="col-lg-12 details">
+<div class="title details_title"><i class="fa fa-check-square-o" aria-hidden="true"></i> WARRANTY</div><!--descr_title-->
+<div class="descr">
+<ul>
+<li>NetworkEquipment.net provides a full 1-year warranty for end-user customers who purchased the product directly from NetworkEquipment.net</li>
+<li>Brokers and Resellers will receive a standard 30-day warranty</li>
+<li>Items listed for sale 'As Is' carry no warranty with their purchase</li>
+<li>This warranty does not cover Software products, Key Codes, Manufacturer's Extended Warranty or Service/Support Agreements, Registration, or Serial Number Transfer of Ownership</li>
+<li>We are unaware of the status of any licenses that may be required to properly use this item. Installation, updates, renewal, and acquisition of licenses will be the responsibility of the new owner.</li>
+</ul>
+</div>
+</div><!--details-->
+</div><!--details_col-->
+<div class="col-sm-6 details_col">
+<div class="col-lg-12 details">
+<div class="title details_title"><i class="fa fa-truck" aria-hidden="true"></i> ORDER FULFILMENT</div><!--descr_title-->
+<div class="descr">
+<ul>
+<li>Item will be shipped immediately after receiving full payment<br>(Often same day, depending on the time of day payment is received)</li>
+<li>Blind Drop Shipments are our specialty. All blind shipments will only contain your Company information, packing slip, ship-from address on the labels. (you may have already received products from us even when you bought from our competition)</li>
+<li>All equipment is professionally packed and insured in double-walled boxes with adequate internal foam protection</li>
+<li>Larger chassis are shipped in specifically made, secure, wooden, shipping crates or palletized for safe delivery</li>
+<li>Contact us before buying if you need an emergency - faster than ground - shipment</li>
+<li>Our Warehouse and Customer Care offices are located in Oklahoma City, OK USA</li>
+<li>We reply to eBay questions 9 am to 5 pm Central US - Monday to Friday</li>
+<li>Our Shipping cutoff is 3 pm Central US</li>
+</ul>
+</div>
+</div><!--details-->
+</div><!--details_col-->
+<div class="col-sm-6 details_col no_border">
+<div class="col-lg-12 details">
+<div class="title details_title"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> SATISFACTION</div><!--descr_title-->
+<div class="descr">
+<ul>
+<li>Top quality is guaranteed. However, should you experience a failure or an issue with the order, contact us and we will work to resolve the issue.</li>
+<li>We perform an intensive quality control process on all our products. Units (unless classified as New in the original manufacturer’s packaging) are fully tested and certified by our technicians. We run and record diagnostics on the units where possible ensure they function to industry standards.</li>
+<li>We want to be the solution for your network needs, so look at our feedback to see how we perform! We look forward to offering you a great experience.</li>
+</ul>
+</div>
+</div><!--details-->
+</div><!--details_col-->
+</div>
+</div>
+</div><!--details_wrap-->
+</div><!--info_bg-->
+<div class="footer_bg">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-sm-4">
+<ul class="info_footer">
+<li id="footer_header">Customer Service</li>
+<li><a target="_blank" href="https://www.ebay.com/str/networkequipment">View All Items</a></li>
+<li><a target="_blank" href="https://www.ebay.com/str/networkequipment?_sop=10">New Arrivals</a></li>
+<li><a target="_blank" href="https://www.ebay.com/str/networkequipment?_sop=1">Ending Soonest</a></li>
+<li><a target="_blank" href="https://www.ebay.com/str/networkequipment?_sop=15">Lowest Prices</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-4">
+<ul class="info_footer">
+<li id="footer_header">Our Shop</li>
+<li><a target="_blank" href="https://www.ebay.com/str/networkequipment">View Store</a></li>
+<li><a target="_blank" href="https://my.ebay.com/ws/eBayISAPI.dll?AcceptSavedSeller&sellerid=networkequipment&ssPageName=STRK:MEFS:ADDSTR&rt=nc">Add us to your favourite sellers</a></li>
+<li><a target="_blank" href="https://www.ebay.com/fdbk/feedback_profile/networkequipment?filter=feedback_page:All&_trksid=p2545226.m2531.l4585">Our Feedback</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-4">
+<ul class="info_footer">
+<li id="footer_header">Send us a Message</li>
+<li><i class="fa fa-envelope" aria-hidden="true"></i> <a target="_blank" href="https://contact.ebay.com/ws/eBayISAPI.dll?FindAnswers&requested=networkequipment&_trksid=p2545226.m2531.l4583&rt=nc">Contact us via ebay message</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-4">
+<ul class="info_footer">
+<li id="footer_header">Secure Payments</li>
+<li><img class="img-responsive" src="https://mhdesignlab.com/shop_designs/network_equipment/images/paypal.jpg"></li>
+</ul>
+</div>
+</div><!--row-->
+</div><!--container-->
+</div><!--footer_bg-->
+</div><!--bg-->
+<div class="copyrights">&copy; Copyright 2022 Network Equipment | All rights reserved</div>

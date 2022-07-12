@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "main": {
+      "type": "404",
+      "disabled": true,
+      "settings": {}
+    },
+    "1655500278c89a2f77": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify:\/\/shop_images\/404_Error.jpg",
+        "position": "center center",
+        "title": "",
+        "text": "",
+        "content_position": "center-right",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "https:\/\/networkequipment.net",
+        "button_text": "Go Back To Shopping"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1655500278c89a2f77"
+  ]
+}

@@ -105,6 +105,53 @@
   -%}
 {%- endcapture  -%}
 
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'key_details' %}
+      {% assign key_details_left = block.settings.key_details_left %}
+      {% capture key_details_capture %}
+        {% unless block.settings.title == blank and block.settings.text == blank %}
+          <div
+            class="key-details"
+            style="
+              --key-details-text-color: {{ block.settings.text_color }};
+              --key-details-icon-color: {{ block.settings.icon_color }};
+              --key-details-background-color: {{ block.settings.background_color }};
+            "
+          >
+            {% if block.settings.image %}
+              {%
+                render 'rimg',
+                img: block.settings.image,
+                class: 'key-details__image',
+                size: '50x50',
+                lazy: true,
+              %}
+            {% else %}
+              {%
+                render 'icon-library',
+                id: block.settings.icon,
+                icon_class: 'key-details__icon',
+              %}
+            {% endif %}
+
+            <div class="key-details__wrapper">
+              {% if block.settings.title != blank %}
+                <p class="key-details__heading">
+                  {{ block.settings.title | escape }}
+                </p>
+              {% endif %}
+
+              {% if block.settings.text != blank %}
+                {{ block.settings.text }}
+              {% endif %}
+            </div>
+          </div>
+        {% endunless %}
+      {% endcapture %}
+  {% endcase %}
+{% endfor %}
+
 <article class="product--outer">
   {%
     render 'product-gallery',
@@ -114,7 +161,9 @@
     thumbnail_position: gallery_thumbnail_position,
     image_crop: gallery_image_crop,
     gallery_click_to_zoom: gallery_click_to_zoom,
-    gallery_hover_zoom: gallery_hover_zoom
+    gallery_hover_zoom: gallery_hover_zoom,
+    key_details: key_details_capture,
+    key_details_left: key_details_left
   %}
 
   <div class="product-main">
@@ -216,44 +265,46 @@
               {% endif %}
 
             {% when 'key_details' %}
-              {% unless block.settings.title == blank and block.settings.text == blank %}
-                <div
-                  class="key-details"
-                  style="
-                    --key-details-text-color: {{ block.settings.text_color }};
-                    --key-details-icon-color: {{ block.settings.icon_color }};
-                    --key-details-background-color: {{ block.settings.background_color }};
-                  "
-                >
-                  {% if block.settings.image %}
-                    {%
-                      render 'rimg',
-                      img: block.settings.image,
-                      class: 'key-details__image',
-                      size: '50x50',
-                      lazy: true,
-                    %}
-                  {% else %}
-                    {%
-                      render 'icon-library',
-                      id: block.settings.icon,
-                      icon_class: 'key-details__icon',
-                    %}
-                  {% endif %}
-
-                  <div class="key-details__wrapper">
-                    {% if block.settings.title != blank %}
-                      <p class="key-details__heading">
-                        {{ block.settings.title | escape }}
-                      </p>
+              {% if block.settings.key_details_left == false %}
+                {% unless block.settings.title == blank and block.settings.text == blank %}
+                  <div
+                    class="key-details"
+                    style="
+                      --key-details-text-color: {{ block.settings.text_color }};
+                      --key-details-icon-color: {{ block.settings.icon_color }};
+                      --key-details-background-color: {{ block.settings.background_color }};
+                    "
+                  >
+                    {% if block.settings.image %}
+                      {%
+                        render 'rimg',
+                        img: block.settings.image,
+                        class: 'key-details__image',
+                        size: '50x50',
+                        lazy: true,
+                      %}
+                    {% else %}
+                      {%
+                        render 'icon-library',
+                        id: block.settings.icon,
+                        icon_class: 'key-details__icon',
+                      %}
                     {% endif %}
-
-                    {% if block.settings.text != blank %}
-                      {{ block.settings.text }}
-                    {% endif %}
+  
+                    <div class="key-details__wrapper">
+                      {% if block.settings.title != blank %}
+                        <p class="key-details__heading">
+                          {{ block.settings.title | escape }}
+                        </p>
+                      {% endif %}
+  
+                      {% if block.settings.text != blank %}
+                        {{ block.settings.text }}
+                      {% endif %}
+                    </div>
                   </div>
-                </div>
-              {% endunless %}
+                {% endunless %}
+              {% endif %}
 
             {% when 'price' %}
               <div

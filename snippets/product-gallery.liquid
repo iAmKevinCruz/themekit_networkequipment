@@ -64,6 +64,10 @@
     image_crop: image_crop
   %}
 
+  {% if key_details_left %}
+    {{ key_details }}
+  {% endif %}
+
   {% assign first_model = product.media | where: "media_type", "model" | first %}
   {% if selected_media.media_type == 'model' %}
     {% assign model = selected_media %}

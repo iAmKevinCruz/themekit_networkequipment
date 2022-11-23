@@ -107,10 +107,18 @@
 
 {% assign product_available = product_available | default: product.available %}
 
+
+
 {%- if product_available != true -%}
-  <span class="{{ class_root }}__badge {{ class_root }}__badge--soldout">
-    {{ 'product_price.badge.sold_out' | t }}
-  </span>
+{%comment%}THIS IS COMMENTED OUT TO REMOVE THE OUT OF STOCK BADGE UPON MERCHANT REQUEST{%endcomment%}
+  {% if enable_outofstock_badge %}
+    <span class="{{ class_root }}__badge {{ class_root }}__badge--soldout">
+      {{ 'product_price.badge.sold_out' | t }}
+    </span>
+  {% endif %}
+
+  {%comment%}
+  {%endcomment%}
 {%- elsif on_sale and sales_badge -%}
   {% assign on_sale = on_sale | default: true %}
   {% assign saved_price_single = savings_money_single | money %}
@@ -118,6 +126,7 @@
   {% if savings_money_range <= 0 %}
     {% assign on_sale = false %}
   {% endif %}
+
 
   <span class="{{ class_root }}__badge {{ class_root }}__badge--sale"
     data-badge-sales

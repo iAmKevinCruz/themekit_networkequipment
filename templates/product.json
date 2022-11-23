@@ -12,7 +12,8 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "2dd7b1dc-b4fe-4ddd-ae2e-2b9ff72cb9f8": {
           "type": "text",
@@ -22,7 +23,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "3f7cbca5-bcc3-421e-a353-935c760140e8": {
           "type": "inventory_status",
@@ -39,14 +41,15 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "85d76aad-a25e-44a6-8254-d445c1cec060": {
           "type": "key_details",
           "settings": {
             "icon": "icon-delivery-package",
-            "title": "Free US Ground Shipping",
-            "text": "<p>Any Purchase Over $250<\/p>",
+            "title": "Services That Benefit You!",
+            "text": "<p><strong>Purchasing made simple and guilt-free with Free US Ground Shipping on Any Purchase Over $250. Included is our guarantee and commitment to you of a 365 Day Green Light Hardware Warranty to ALL Enduser customers. <\/strong><\/p>",
             "text_color": "#1d1d1d",
             "icon_color": "#1d1d1d",
             "background_color": "#7fd8ec"
@@ -54,7 +57,8 @@
         },
         "share": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -87,7 +91,8 @@
     "reviews": {
       "type": "static-product-reviews",
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     },
     "recently-viewed": {
       "type": "static-recently-viewed",

@@ -38,6 +38,7 @@
         "sort_by": true,
         "grid_list": true,
         "default_view": "grid-view",
+        "disable_outofstock_badge": true,
         "enable_subcollection": false,
         "show_product_count": false,
         "thumbnail_image": "product-image",

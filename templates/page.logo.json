@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16643701935fba66e7": {
+      "type": "dynamic-video",
+      "settings": {
+        "title": "",
+        "url": "https:\/\/vimeo.com\/754709388",
+        "show_caption": false,
+        "caption": "",
+        "autoplay": true,
+        "aspect_ratio": "21-9",
+        "cover": "shopify:\/\/shop_images\/ebay_logo_e1e253c7-d169-4a59-861d-f4ebd955bec0.png",
+        "position": "center-center",
+        "show_overlay": false,
+        "background": "#1b3bc2",
+        "opacity": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16643701935fba66e7"
+  ]
+}

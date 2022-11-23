@@ -3,18 +3,19 @@
     "main": {
       "type": "page-contact",
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     },
-    "16532466205ba868df": {
+    "1661207533ff34b950": {
       "type": "dynamic-slideshow",
       "blocks": {
-        "1653246620fb845e79-0": {
+        "1661207533c7900afc-0": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Sell_To_Us_the_Easy_Way_a9a15e5e-42b5-492f-b3b3-023beb023559.png",
+            "background_image": "shopify:\/\/shop_images\/We_Buy_Your_Gear_1800_x_500_px.png",
             "title": "",
             "text": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link": "",
             "text_alignment": "center",
             "button_one_label": "",
@@ -23,18 +24,18 @@
             "button_two_label": "",
             "button_two_link": "",
             "button_two_style": "primary",
-            "show_overlay": false,
-            "overlay_color": "#000000",
-            "overlay_opacity": 50
+            "show_overlay": true,
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 1
           }
         },
-        "1653246620fb845e79-1": {
+        "1661207533c7900afc-1": {
           "type": "slide",
           "disabled": true,
           "settings": {
             "title": "Slide 2",
             "text": "Introduce customers to your shop with lifestyle and product imagery",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link": "",
             "text_alignment": "center",
             "button_one_label": "Button",
@@ -50,167 +51,40 @@
         }
       },
       "block_order": [
-        "1653246620fb845e79-0",
-        "1653246620fb845e79-1"
+        "1661207533c7900afc-0",
+        "1661207533c7900afc-1"
       ],
       "settings": {
         "enable_autoplay": false,
-        "autoplay_duration": 12,
+        "autoplay_duration": 8,
         "slideshow_width": "content",
-        "slideshow_height": "large",
-        "slideshow_height_mobile": "medium",
-        "slideshow_text_below_image": true
+        "slideshow_height": "original",
+        "slideshow_height_mobile": "small",
+        "slideshow_text_below_image": false
       }
     },
-    "16532466248ab6e969": {
-      "type": "dynamic-promo-mosaic",
-      "blocks": {
-        "165324662480b67f06-0": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Switches_900X600_6bb4e26a-34d0-49c3-864a-088ace10f4fb.png",
-            "title": "1. Tell Us What You Have by Model Number and Quantity",
-            "text": "Send us a list to purchasing@networkequipment.net",
-            "color": "#ffffff",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#23aff4",
-            "opacity": 86
-          }
-        },
-        "165324662480b67f06-1": {
-          "type": "promotion",
-          "settings": {
-            "title": "Is Your Equipment New or Used?",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#949494",
-            "opacity": 100
-          }
-        },
-        "165324662480b67f06-2": {
-          "type": "promotion",
-          "settings": {
-            "title": "Is Your Equipment Missing Anything?",
-            "text": "Please let us know if it is not complete for any reason",
-            "color": "#ffffff",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#ffab41",
-            "opacity": 100
-          }
-        }
-      },
-      "block_order": [
-        "165324662480b67f06-0",
-        "165324662480b67f06-1",
-        "165324662480b67f06-2"
-      ],
+    "1661206897893a6567": {
+      "type": "dynamic-custom-liquid",
       "settings": {
-        "title": "How Does This Work?",
-        "section_height": "small",
-        "text_alignment": "center-center",
-        "maintain_aspect_ratio": true,
-        "compress_blocks": true
+        "custom_liquid": "<center>{ets_cf_ycX}<\/center>"
       }
     },
-    "16532571322a1dd547": {
-      "type": "dynamic-promo-mosaic",
-      "blocks": {
-        "16532571328258acf8-0": {
-          "type": "promotion",
-          "settings": {
-            "title": "2. Choose How We Pay You",
-            "text": "Upfront payment with credit card or Paypal.   ACH , Bank Wire, or Company Check after arrival, check-in, testing.",
-            "color": "#1d1d1d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#36cff0",
-            "opacity": 100
-          }
-        },
-        "16532571328258acf8-1": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Install_900X600_bedd7d0f-c443-4879-a857-3a6e0ba5605e.png",
-            "title": "Want to swap products instead?",
-            "text": "This is a great way to ease your hardware budget and also provide critical backup units on the shelf",
-            "color": "#ffffff",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 75
-          }
-        },
-        "16532571328258acf8-2": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Shipping_Boxes_-_900x600_4abb6c05-ef79-4295-b6c9-9e8d1f6ba913.png",
-            "title": "3. Ship Your Products To Us!",
-            "text": "If you're in the US, you can use our UPS or FEDEX account to ship.   We can make labels as well.  If you're outside the US, then please let us know what country you're in.",
-            "color": "#ffffff",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 76
-          }
-        },
-        "705716bd-59fc-4cf2-8950-c7edd5fe9fd0": {
-          "type": "promotion",
-          "settings": {
-            "title": "We do Freight also!",
-            "text": "If we purchase a good amount of weight and you can palletize, then we'll send in a freight truck service for pickup.",
-            "color": "#ffffff",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#ffab41",
-            "opacity": 100
-          }
-        }
-      },
-      "block_order": [
-        "16532571328258acf8-0",
-        "16532571328258acf8-1",
-        "16532571328258acf8-2",
-        "705716bd-59fc-4cf2-8950-c7edd5fe9fd0"
-      ],
+    "166429560824759f2c": {
+      "type": "dynamic-featured-collection",
       "settings": {
-        "title": "",
-        "section_height": "small",
-        "text_alignment": "center-center",
-        "maintain_aspect_ratio": true,
-        "compress_blocks": false
-      }
-    },
-    "16532580327781f7fb": {
-      "type": "dynamic-html",
-      "settings": {
-        "title": "",
-        "custom_html": "<p><\/p><center><font size=\"+3\">Start the process by emailing us at purchasing@networkequipment.net<p><\/p><\/font><\/center>"
+        "title": "Best Selling Products",
+        "layout": "grid",
+        "collection": "best-selling-collection",
+        "product_count": 5,
+        "cta_label": "Shop The Best Selling Gear",
+        "cta_button_style": "primary"
       }
     }
   },
   "order": [
     "main",
-    "16532466205ba868df",
-    "16532466248ab6e969",
-    "16532571322a1dd547",
-    "16532580327781f7fb"
+    "1661207533ff34b950",
+    "1661206897893a6567",
+    "166429560824759f2c"
   ]
 }

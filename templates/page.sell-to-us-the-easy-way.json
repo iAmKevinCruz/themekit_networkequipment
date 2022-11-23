@@ -3,10 +3,29 @@
     "main": {
       "type": "page-contact",
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
+    },
+    "16610038174f76dee8": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Servers.jpg",
+        "crop": "center",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Get Started!",
+        "subheading": "<p><strong>We buy your surplus equipment from leading manufacturers including Cisco, Juniper, Ruckus, Fortinet, HPE\/Aruba , Dell, Ubiquiti and Others<\/strong><\/p>",
+        "text_alignment": "center",
+        "button_label": "Button",
+        "button_link": ""
+      }
     },
     "16532466205ba868df": {
       "type": "dynamic-slideshow",
+      "disabled": true,
       "blocks": {
         "1653246620fb845e79-0": {
           "type": "slide",
@@ -14,7 +33,7 @@
             "background_image": "shopify:\/\/shop_images\/Sell_To_Us_the_Easy_Way_a9a15e5e-42b5-492f-b3b3-023beb023559.png",
             "title": "",
             "text": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link": "",
             "text_alignment": "center",
             "button_one_label": "",
@@ -34,7 +53,7 @@
           "settings": {
             "title": "Slide 2",
             "text": "Introduce customers to your shop with lifestyle and product imagery",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link": "",
             "text_alignment": "center",
             "button_one_label": "Button",
@@ -64,6 +83,7 @@
     },
     "16532466248ab6e969": {
       "type": "dynamic-promo-mosaic",
+      "disabled": true,
       "blocks": {
         "165324662480b67f06-0": {
           "type": "promotion",
@@ -115,7 +135,7 @@
         "165324662480b67f06-2"
       ],
       "settings": {
-        "title": "How Does This Work?",
+        "title": "Get Started!",
         "section_height": "small",
         "text_alignment": "center-center",
         "maintain_aspect_ratio": true,
@@ -124,6 +144,7 @@
     },
     "16532571322a1dd547": {
       "type": "dynamic-promo-mosaic",
+      "disabled": true,
       "blocks": {
         "16532571328258acf8-0": {
           "type": "promotion",
@@ -200,17 +221,37 @@
     },
     "16532580327781f7fb": {
       "type": "dynamic-html",
+      "disabled": true,
       "settings": {
         "title": "",
-        "custom_html": "<p><\/p><center><font size=\"+3\">Start the process by emailing us at purchasing@networkequipment.net<p><\/p><\/font><\/center>"
+        "custom_html": "<div class=\"storeify-formbuilder-view\" id=\"storeify-formbuilder-view-8867\"><\/div>"
+      }
+    },
+    "166100301358ddfec9": {
+      "type": "apps",
+      "blocks": {
+        "f85a19ea-f0bd-4764-86f8-4b20caaed2da": {
+          "type": "shopify:\/\/apps\/contact-form-contact-us-form\/blocks\/block-embed\/cceef8dd-a4f1-4344-962d-06bf0022ec0d",
+          "settings": {
+            "embed_code": "[storeify-formbuilder-8867]"
+          }
+        }
+      },
+      "block_order": [
+        "f85a19ea-f0bd-4764-86f8-4b20caaed2da"
+      ],
+      "settings": {
+        "include_padding": true
       }
     }
   },
   "order": [
     "main",
+    "16610038174f76dee8",
     "16532466205ba868df",
     "16532466248ab6e969",
     "16532571322a1dd547",
-    "16532580327781f7fb"
+    "16532580327781f7fb",
+    "166100301358ddfec9"
   ]
 }

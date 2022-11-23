@@ -1,5 +1,84 @@
 {
   "sections": {
+    "164131343699bf9171": {
+      "type": "dynamic-promo-mosaic",
+      "disabled": true,
+      "blocks": {
+        "1641313435469fa962-0": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Web_Main_Graphic_1.png",
+            "title": "",
+            "text": "",
+            "color": "#4d4d4d",
+            "block_link": "shopify:\/\/collections\/all-inventory",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "1641313435469fa962-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Networks-and-Blocks.jpg",
+            "title": "Best-Of-Breed Switches",
+            "text": "Top Technology Brands",
+            "color": "#000000",
+            "block_link": "shopify:\/\/collections\/switches",
+            "button_text": "Check Them Out!",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#cfdbe9",
+            "opacity": 83
+          }
+        },
+        "1641313435469fa962-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wire-frame-network.jpg",
+            "title": "We Buy Back",
+            "text": "Your Unwanted New and Used IT Assets",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/pages\/buy-back-program",
+            "button_text": "Sell To Us Here",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#3563d6",
+            "opacity": 77
+          }
+        },
+        "79fa9913-9b6c-46fd-90db-2fbf8be53edd": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Need_A_Quote_2.jpg",
+            "title": "",
+            "text": "",
+            "color": "#4d4d4d",
+            "block_link": "shopify:\/\/pages\/get-a-quote",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "#cfdbe9",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "1641313435469fa962-0",
+        "1641313435469fa962-1",
+        "1641313435469fa962-2",
+        "79fa9913-9b6c-46fd-90db-2fbf8be53edd"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "center-center",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": true
+      }
+    },
     "dynamic_slideshow": {
       "type": "dynamic-slideshow",
       "blocks": {
@@ -25,6 +104,7 @@
         },
         "ece90dcf-a490-40d7-87dc-ed8231fefc4f": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Sell_To_Us_the_Easy_Way_035b546a-47c1-4f5d-93e3-3c9660b67154.png",
             "title": "",
@@ -33,7 +113,7 @@
             "link": "shopify:\/\/pages\/buyback-program",
             "text_alignment": "left",
             "button_one_label": "More ..",
-            "button_one_link": "shopify:\/\/pages\/buyback-program",
+            "button_one_link": "shopify:\/\/pages\/buy-back-program",
             "button_one_style": "secondary",
             "button_two_label": "",
             "button_two_link": "",
@@ -127,22 +207,139 @@
         "cta_button_style": "primary"
       }
     },
+    "164988660450f0f7d1": {
+      "type": "dynamic-shoppable-image",
+      "disabled": true,
+      "blocks": {
+        "16498866045946d00c-0": {
+          "type": "hotspot",
+          "settings": {
+            "product": "cisco-meraki-ms355",
+            "x_axis": 56,
+            "y_axis": 70
+          }
+        },
+        "16498866045946d00c-1": {
+          "type": "hotspot",
+          "settings": {
+            "product": "cisco-meraki-mx100-hw-mx-series-8x-ge-2x-1g-sfp-lan-firewall-unclaimed",
+            "x_axis": 47,
+            "y_axis": 22
+          }
+        },
+        "16498866045946d00c-2": {
+          "type": "hotspot",
+          "settings": {
+            "product": "cisco-meraki-ms320-48fp-hw-ms320-series-48x-ge-4x-10g-sfp-unclaimed-switch",
+            "x_axis": 82,
+            "y_axis": 36
+          }
+        },
+        "72206228-1795-4aef-9a88-d6128e905ba8": {
+          "type": "hotspot",
+          "settings": {
+            "product": "cisco-meraki-mr74-hw",
+            "x_axis": 86,
+            "y_axis": 86
+          }
+        }
+      },
+      "block_order": [
+        "16498866045946d00c-0",
+        "16498866045946d00c-1",
+        "16498866045946d00c-2",
+        "72206228-1795-4aef-9a88-d6128e905ba8"
+      ],
+      "settings": {
+        "title": "",
+        "image": "shopify:\/\/shop_images\/Cisco_Meraki_Hotspot.jpg",
+        "image_width": "two-thirds",
+        "link_text": "View Meraki products",
+        "textbox_title": "",
+        "textbox_subheading": "",
+        "textbox_button_label": "",
+        "textbox_button_link": "shopify:\/\/collections\/cisco-meraki",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "center",
+        "textbox_text_position": "right"
+      }
+    },
+    "dynamic_highlights_banner": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Shipping In The US",
+            "text": "<p>On Orders Above $295+<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>+1 (800)796-2947<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Email Us !",
+            "text": "<p>support@networkequipment.net<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-4": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-rating-star",
+            "title": "Buy Back Program",
+            "text": "<p>We buy unwanted used and <\/p><p>new IT hardware<\/p>",
+            "link": "shopify:\/\/pages\/buyback-program"
+          }
+        }
+      },
+      "block_order": [
+        "highlight-1",
+        "highlight-2",
+        "highlight-3",
+        "highlight-4"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#000000",
+        "icon_color": "#1c77f5",
+        "background_color": "#dddddd",
+        "mobile_layout": "grid"
+      }
+    },
     "16534306025f458e5a": {
       "type": "dynamic-featured-product",
+      "disabled": true,
       "blocks": {
         "16534306010fa0aee3-0": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "b6be5077-aee2-432b-b9fa-ba77ec265dc4": {
           "type": "vendor",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "16534306010fa0aee3-1": {
           "type": "price",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "a09ddfaa-c5db-477a-8e2b-4428c3651e4c": {
           "type": "inventory_status",
@@ -182,87 +379,9 @@
         "gallery_hover_zoom": "disabled"
       }
     },
-    "164131343699bf9171": {
-      "type": "dynamic-promo-mosaic",
-      "disabled": true,
-      "blocks": {
-        "1641313435469fa962-0": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Web_Main_Graphic_1.png",
-            "title": "",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "shopify:\/\/collections\/all-inventory",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "1641313435469fa962-1": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Networks-and-Blocks.jpg",
-            "title": "Best-Of-Breed Switches",
-            "text": "Top Technology Brands",
-            "color": "#000000",
-            "block_link": "shopify:\/\/collections\/switches",
-            "button_text": "Check Them Out!",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#cfdbe9",
-            "opacity": 83
-          }
-        },
-        "1641313435469fa962-2": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/wire-frame-network.jpg",
-            "title": "We Buy Back",
-            "text": "Your Unwanted New and Used IT Assets",
-            "color": "#ffffff",
-            "block_link": "shopify:\/\/pages\/sell-to-us-the-easy-way",
-            "button_text": "Sell To Us Here",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#3563d6",
-            "opacity": 77
-          }
-        },
-        "79fa9913-9b6c-46fd-90db-2fbf8be53edd": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Need_A_Quote_2.jpg",
-            "title": "",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "shopify:\/\/pages\/get-a-quote",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "#cfdbe9",
-            "opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "1641313435469fa962-0",
-        "1641313435469fa962-1",
-        "1641313435469fa962-2",
-        "79fa9913-9b6c-46fd-90db-2fbf8be53edd"
-      ],
-      "settings": {
-        "title": "",
-        "section_height": "small",
-        "text_alignment": "center-center",
-        "maintain_aspect_ratio": true,
-        "compress_blocks": true
-      }
-    },
     "16349390936fa4ffce": {
       "type": "dynamic-slideshow",
+      "disabled": true,
       "blocks": {
         "16349390936fa4ffce-0": {
           "type": "slide",
@@ -271,17 +390,17 @@
             "title": "",
             "text": "",
             "color": "#ffffff",
-            "link": "shopify:\/\/pages\/buyback-program",
+            "link": "shopify:\/\/pages\/buy-back-program",
             "text_alignment": "center",
             "button_one_label": "",
-            "button_one_link": "shopify:\/\/pages\/buyback-program",
+            "button_one_link": "shopify:\/\/pages\/buy-back-program",
             "button_one_style": "primary",
             "button_two_label": "",
             "button_two_link": "",
             "button_two_style": "primary",
             "show_overlay": false,
-            "overlay_color": "#000000",
-            "overlay_opacity": 50
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 1
           }
         }
       },
@@ -297,146 +416,41 @@
         "slideshow_text_below_image": true
       }
     },
-    "dynamic_highlights_banner": {
-      "type": "dynamic-highlights-banner",
-      "blocks": {
-        "highlight-1": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-delivery",
-            "title": "Free Shipping In The US",
-            "text": "<p>On Orders Above $295+<\/p>",
-            "link": ""
-          }
-        },
-        "highlight-2": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-cell-phone",
-            "title": "Give Us A Call",
-            "text": "<p>+1 (800)796-2947<\/p>",
-            "link": ""
-          }
-        },
-        "highlight-3": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-chat-alternate",
-            "title": "Email Us !",
-            "text": "<p>support@networkequipment.net<\/p>",
-            "link": ""
-          }
-        },
-        "highlight-4": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-rating-star",
-            "title": "Buy Back Program",
-            "text": "<p>We buy unwanted used and <\/p><p>new IT hardware<\/p>",
-            "link": "shopify:\/\/pages\/sell-to-us-the-easy-way"
-          }
-        }
-      },
-      "block_order": [
-        "highlight-1",
-        "highlight-2",
-        "highlight-3",
-        "highlight-4"
-      ],
-      "settings": {
-        "section_spacing": false,
-        "section_width": "content-width",
-        "icon_layout": "center",
-        "color": "#000000",
-        "icon_color": "#1c77f5",
-        "background_color": "#dddddd",
-        "mobile_layout": "grid"
-      }
-    },
-    "164988660450f0f7d1": {
-      "type": "dynamic-shoppable-image",
-      "disabled": true,
-      "blocks": {
-        "16498866045946d00c-0": {
-          "type": "hotspot",
-          "settings": {
-            "product": "cisco-meraki-ms355",
-            "x_axis": 56,
-            "y_axis": 70
-          }
-        },
-        "16498866045946d00c-1": {
-          "type": "hotspot",
-          "settings": {
-            "product": "cisco-meraki-mx100-hw-mx-series-8x-ge-2x-1g-sfp-lan-firewall-unclaimed",
-            "x_axis": 47,
-            "y_axis": 22
-          }
-        },
-        "16498866045946d00c-2": {
-          "type": "hotspot",
-          "settings": {
-            "product": "ms225-24-hw",
-            "x_axis": 82,
-            "y_axis": 36
-          }
-        },
-        "72206228-1795-4aef-9a88-d6128e905ba8": {
-          "type": "hotspot",
-          "settings": {
-            "product": "mr53",
-            "x_axis": 86,
-            "y_axis": 86
-          }
-        }
-      },
-      "block_order": [
-        "16498866045946d00c-0",
-        "16498866045946d00c-1",
-        "16498866045946d00c-2",
-        "72206228-1795-4aef-9a88-d6128e905ba8"
-      ],
-      "settings": {
-        "title": "",
-        "image": "shopify:\/\/shop_images\/Cisco_Meraki_Hotspot.jpg",
-        "image_width": "full",
-        "link_text": "View Meraki products",
-        "textbox_title": "",
-        "textbox_subheading": "",
-        "textbox_button_label": "",
-        "textbox_button_link": "shopify:\/\/collections\/cisco-meraki",
-        "textbox_button_style": "primary",
-        "textbox_text_alignment": "center",
-        "textbox_text_position": "right"
-      }
-    },
-    "1651283312868d4050": {
-      "type": "apps",
-      "settings": {
-        "include_padding": true
-      }
-    },
-    "1651283376206c0be2": {
+    "1657974568860649a3": {
       "type": "dynamic-featured-collection",
       "settings": {
-        "title": "Fortinet !",
+        "title": "Cisco Meraki IN STOCK!",
         "layout": "grid",
-        "collection": "fortinet",
-        "product_count": 15,
-        "cta_label": "Shop collection",
+        "collection": "cisco-meraki-instock",
+        "product_count": 10,
+        "cta_label": "Check Out the Selection!",
         "cta_button_style": "primary"
+      }
+    },
+    "1661206830d2b0a571": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<center>{ets_cf_hoz}<\/center>"
+      }
+    },
+    "166483636616d36490": {
+      "type": "dynamic-custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<video width=\"100%\" controls playsinline autoplay loop muted>\n<source type=\"video\/mp4\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ea51b35aec2349208faf77978e01470c.mp4\"><\/video>"
       }
     }
   },
   "order": [
+    "164131343699bf9171",
     "dynamic_slideshow",
     "dynamic_collection_list",
-    "16534306025f458e5a",
-    "164131343699bf9171",
-    "16349390936fa4ffce",
-    "dynamic_highlights_banner",
     "164988660450f0f7d1",
-    "1651283312868d4050",
-    "1651283376206c0be2"
+    "dynamic_highlights_banner",
+    "16534306025f458e5a",
+    "16349390936fa4ffce",
+    "1657974568860649a3",
+    "1661206830d2b0a571",
+    "166483636616d36490"
   ]
 }

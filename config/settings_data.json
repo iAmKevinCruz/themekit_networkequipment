@@ -3,7 +3,7 @@
     "color_background": "#ffffff",
     "color_headings": "#1d1d1d",
     "color_text": "#1d1d1d",
-    "color_text_light": "#949494",
+    "color_text_light": "#5e5f63",
     "color_links": "#36cff0",
     "color_button_background": "#58d0ea",
     "color_button_text": "#ffffff",
@@ -14,7 +14,7 @@
     "color_header_text": "#1d1d1d",
     "color_input_text": "#000000",
     "color_input_background": "#ffffff",
-    "color_input_border": "#dddddd",
+    "color_input_border": "#000000",
     "color_product_sale_accent": "#ffab41",
     "color_product_review_star": "#e8ff41",
     "color_products_in_stock": "#1b3bc2",
@@ -40,7 +40,7 @@
     "type_section_capitalize": false,
     "type_section_spacing": 0,
     "reduce_animations": true,
-    "layout_max_width": 1400,
+    "layout_max_width": 1300,
     "product_sales_badge": false,
     "product_sales_badge_style": "percent",
     "inventory_status": true,
@@ -82,7 +82,11 @@
     "continue_url_cart": true,
     "continue_url_404": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/Logo_-_Stacked.png",
-    "checkout_body_background_color": "#e1e4e7",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#f6f9fd",
+    "checkout_heading_font": "Open Sans",
+    "checkout_body_font": "Open Sans",
     "checkout_error_color": "#c47612",
     "product_ratings_reviews": false,
     "product_show_sku": false,
@@ -129,11 +133,12 @@
           "quick_links": "the-gear",
           "menu": "the-gear",
           "secondary_menu": "",
-          "small_promo_heading": "Get A Quote",
-          "small_promo_text": "",
-          "small_promo_text_mobile": "",
-          "small_promo_link": "shopify:\/\/pages\/request-for-quote",
+          "small_promo_heading": "BuyBack Program :",
+          "small_promo_text": "<p>Sell Gear To Us!<\/p><p><\/p>",
+          "small_promo_text_mobile": "<p>Sell Gear To Us!<\/p>",
+          "small_promo_link": "shopify:\/\/pages\/buyback-program",
           "small_promo_icon": "icon-label-tag",
+          "image": "shopify:\/\/shop_images\/mobile-receipt-customesale-icon.png",
           "cart_icon": "icon-cart"
         }
       },
@@ -149,19 +154,13 @@
           },
           "1493171899575": {
             "type": "social_accounts",
-            "settings": {}
+            "settings": {
+            }
           },
           "1498182586280": {
             "type": "menu",
             "settings": {
               "menu": "footer"
-            }
-          },
-          "static-footer-1": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Keep In Touch",
-              "text": "<p>Find Out About Network Tips\/Tricks and Specials We Run<\/p>"
             }
           },
           "8c68f255-80ab-4048-912d-f6fd6d930ca5": {
@@ -175,7 +174,6 @@
           "2321d618-9a40-43dd-a641-5979cf99ea53",
           "1493171899575",
           "1498182586280",
-          "static-footer-1",
           "8c68f255-80ab-4048-912d-f6fd6d930ca5"
         ],
         "settings": {
@@ -190,7 +188,8 @@
         "blocks": {
           "1498186879532": {
             "type": "filter",
-            "settings": {}
+            "settings": {
+            }
           }
         },
         "block_order": [
@@ -233,19 +232,34 @@
           "show_currency_selector": false,
           "show_social_icons": false
         }
+      },
+      "login": {
+        "type": "login",
+        "settings": {
+        }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
-      "807785498547235276": {
-        "type": "shopify:\/\/apps\/contact-form-ultimate\/blocks\/app-embed-block\/7f36c127-5e2b-4909-bcc7-2631483e37a4",
-        "disabled": false,
-        "settings": {}
-      },
       "1868344454708136311": {
         "type": "shopify:\/\/apps\/call-for-price-hide-price\/blocks\/call-for-price\/277b7df2-52d7-4b5f-8bc6-99bc4c4a5563",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
+      },
+      "807785498547235276": {
+        "type": "shopify:\/\/apps\/contact-form-ultimate\/blocks\/app-embed-block\/7f36c127-5e2b-4909-bcc7-2631483e37a4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15573056287721514228": {
+        "type": "shopify:\/\/apps\/json-ld-for-seo\/blocks\/app-embed\/3fcb4f45-bdde-43fd-84ae-8006cdcd1028",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
@@ -385,23 +399,28 @@
           "blocks": {
             "1493171899575": {
               "type": "social_accounts",
-              "settings": {}
+              "settings": {
+              }
             },
             "static-footer-0": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             },
             "1498182586280": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             },
             "1498182572847": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             },
             "static-footer-1": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -422,7 +441,8 @@
           "blocks": {
             "1498186879532": {
               "type": "filter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -549,7 +569,8 @@
             },
             "1572476394007": {
               "type": "multi_column_menu",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -584,19 +605,23 @@
           "blocks": {
             "static-footer-0": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             },
             "1498182586280": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             },
             "1498182572847": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             },
             "1493171899575": {
               "type": "social_accounts",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -617,7 +642,8 @@
           "blocks": {
             "1498186879532": {
               "type": "filter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -661,7 +687,8 @@
         },
         "static-product-reviews": {
           "type": "static-product-reviews",
-          "settings": {}
+          "settings": {
+          }
         },
         "static-recently-viewed": {
           "type": "static-recently-viewed",
@@ -780,7 +807,8 @@
             },
             "1572476394007": {
               "type": "multi_column_menu",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -816,23 +844,28 @@
           "blocks": {
             "1493171899575": {
               "type": "social_accounts",
-              "settings": {}
+              "settings": {
+              }
             },
             "static-footer-0": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             },
             "1498182586280": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             },
             "1498182572847": {
               "type": "menu",
-              "settings": {}
+              "settings": {
+              }
             },
             "static-footer-1": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -853,7 +886,8 @@
           "blocks": {
             "1498186879532": {
               "type": "filter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -897,7 +931,8 @@
         },
         "static-product-reviews": {
           "type": "static-product-reviews",
-          "settings": {}
+          "settings": {
+          }
         },
         "static-recently-viewed": {
           "type": "static-recently-viewed",

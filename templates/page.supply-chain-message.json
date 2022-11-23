@@ -11,19 +11,48 @@
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
         "heading": "Why Are We Different?",
-        "subheading": "<p>&gt; We Offer Many Conditions of Hardware ... New, New Open Box, OEM Reconditioned, and Used\/Reconditioned by us.<\/p><p>&gt; We Are Authorized Partners for Many Brands and Work through Distribution Channels to get the right items for you.<\/p><p>&gt; We also Work Among Worldwide Dealers who have Pockets Of Hardware we can use for You.<\/p><p>&gt; We Buy Back Your Old and Surplus (New as well) and Pay You Outright or can use it for Credit in future purchases.<\/p>",
+        "subheading": "<p>&gt; We Offer Many Conditions of Hardware ... New, New Open Box, OEM Reconditioned, and Used\/Reconditioned<\/p><p>&gt; We Are Authorized Partners for Many Brands and Work through Distribution Channels to get the right items<\/p><p>&gt; We also Work Among Worldwide Dealers who have Pockets Of Hardware we can use<\/p><p>&gt; We Buy Back Your Old and Surplus (New as well) and Pay You Outright or can use it for Credit in future purchases.<\/p><p><\/p><p>We are not tied down to the \"Traditional model\"<\/p>",
         "text_alignment": "center",
         "button_label": "Button",
         "button_link": ""
       }
     },
+    "1661629236e7c24a87": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<center>{ets_cf_hoz}<\/center>"
+      }
+    },
+    "1661629734b4e08928": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Our Newest Products!",
+        "layout": "grid",
+        "collection": "new-products",
+        "product_count": 5,
+        "cta_label": "See All The Newest Gear!",
+        "cta_button_style": "primary"
+      }
+    },
+    "1664829543982a84f6": {
+      "type": "dynamic-custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<video width=\"100%\" controls playsinline autoplay loop muted>\n<source type=\"video\/mp4\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ea51b35aec2349208faf77978e01470c.mp4\"><\/video>"
+      }
+    },
     "main": {
       "type": "page-contact",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+      }
     }
   },
   "order": [
     "1654616657b006390e",
+    "1661629236e7c24a87",
+    "1661629734b4e08928",
+    "1664829543982a84f6",
     "main"
   ]
 }

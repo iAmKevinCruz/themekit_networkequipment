@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16616339447eb56306": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "1661633944eefecb65-0": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Need_A_Quote_1800_x_1000_px.jpg",
+            "title": "Need a Quote?",
+            "text": "We Are A Great Resource For Budgeting and Deployment",
+            "color": "#000000",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#ffffff",
+            "opacity": 39
+          }
+        },
+        "1661633944eefecb65-1": {
+          "type": "promotion",
+          "settings": {
+            "title": "Need A Special Configuration?",
+            "text": "We Handle All Types of Hardware Upgrades ... Cards, Cables, etc.",
+            "color": "#000000",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#80c8d7",
+            "opacity": 100
+          }
+        },
+        "1661633944eefecb65-2": {
+          "type": "promotion",
+          "settings": {
+            "title": "Turning In A Quote For Approval?",
+            "text": "",
+            "color": "#000000",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#ffab41",
+            "opacity": 100
+          }
+        }
+      },
+      "block_order": [
+        "1661633944eefecb65-0",
+        "1661633944eefecb65-1",
+        "1661633944eefecb65-2"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "center-center",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": true
+      }
+    },
+    "166163370049d5b4ba": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<center>{ets_cf_YWC}<\/center>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16616339447eb56306",
+    "166163370049d5b4ba"
+  ]
+}

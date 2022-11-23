@@ -245,14 +245,14 @@
   },
   "cart": {
     "general": {
-      "your_cart": "Your cart",
+      "your_cart": "Your Cart",
       "continue_shopping": "Continue shopping",
       "price": "Price",
       "quantity": "Qty",
       "checkout": "Check out",
       "update": "Update cart",
       "subtotal": "Subtotal",
-      "enter_order_note": "Enter a gift note or special delivery instructions below:",
+      "enter_order_note": "Enter special instructions below:",
       "special_instructions": "Special instructions",
       "tax_and_shipping": "Taxes and shipping calculated at checkout",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",

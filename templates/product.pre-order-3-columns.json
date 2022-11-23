@@ -5,12 +5,14 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "1abaac86-f129-44a4-a9af-25db564c888d": {
           "type": "text",
@@ -20,26 +22,29 @@
         },
         "rating": {
           "type": "rating",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "key_details": {
           "type": "key_details",
           "settings": {
             "icon": "icon-delivery-package",
-            "title": "Delivery time",
-            "text": "<p>After you pre-order, we will contact you with the ETA of when your products will arrive. When your products ship, we will have a tracking update to share.<\/p>",
+            "title": "Services that Benefit You!",
+            "text": "<p><strong>Purchasing made simple and guilt-free with Free US Ground Shipping on Any Purchase Over $250. Included is our guarantee and commitment to you of a 365 Day Green Light Hardware Warranty to ALL Enduser customers. <\/strong><\/p>",
             "text_color": "#1d1d1d",
             "icon_color": "#1d1d1d",
-            "background_color": "#f5f3ed"
+            "background_color": "#36cff0"
           }
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -53,12 +58,12 @@
       ],
       "settings": {
         "social_share": true,
-        "enable_local_pickup": false,
+        "enable_local_pickup": true,
         "gallery_aspect_ratio": "natural",
         "gallery_image_crop": false,
         "gallery_thumbnail_position": "below",
-        "gallery_video_autoplay": true,
-        "gallery_video_looping": true,
+        "gallery_video_autoplay": false,
+        "gallery_video_looping": false,
         "gallery_hover_zoom": "disabled",
         "gallery_click_to_zoom": "always"
       }

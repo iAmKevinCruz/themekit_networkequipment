@@ -357,6 +357,11 @@
               {% endif %}
             {% endif %}
 
+            <script>
+              console.log('product-grid-item');
+              console.log({{section.settings.enable_outofstock_badge}});
+            </script>
+
             {%
               render 'product-badge',
               class_root: 'productitem',
@@ -368,6 +373,7 @@
               show_saved: consistent_saved,
               include_range: true,
               compare_at_price_varies: compare_at_price_varies,
+              enable_outofstock_badge: {{section.settings.enable_outofstock_badge}}
             %}
           </figure>
         </a>
